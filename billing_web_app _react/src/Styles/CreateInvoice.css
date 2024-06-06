@@ -1,0 +1,131 @@
+
+.create-invoice {
+    flex-grow: 1;
+    padding: 0px 10px;
+    background-color: #f9fafb;
+    overflow-y: auto;
+    margin: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .create-invoice h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+  }
+  .upload-icon{
+    font-size: 25px;
+    color:#007bff;
+    
+  }
+  .upload-logo {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    border-color: #007bff;
+    padding: 10px ;
+    margin:10px 0px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 500 ;
+  }
+  
+  .upload-logo p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  
+   .summary {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .summary input,
+  .summary select,
+  .summary textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0%;
+    margin: 0%;
+  }
+  #back{
+    cursor: pointer;
+  }
+.customer-details {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+.header h2{
+  font-size: 18px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  transition: border-color 0.3s;
+  border-radius: 3px;
+}
+.form-group input:hover{
+  border-color: #007bff;
+}
+.form-group input:focus{
+  border-color: #007bff;
+}
+#name{
+  padding-left:30px ;
+  width: 277px;
+}
+.logo{
+  color: #007bff;
+}
+.search{
+    position: relative;
+    bottom:25px;
+    left: 7px;
+    width: 15px;
+}
+.rightarrow{
+  position: relative;
+  left: 250px;
+  bottom: 48px;
+  font-size: 26px;
+  cursor: pointer;
+}

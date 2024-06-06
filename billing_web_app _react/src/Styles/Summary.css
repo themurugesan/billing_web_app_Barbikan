@@ -1,0 +1,95 @@
+
+  .App{
+    margin-bottom: 10px;
+  }
+  .customer-notes, .terms-conditions {
+    margin-bottom: 20px;
+
+  }
+  .customer-notes textarea{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+
+  }
+  .customer-notes{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  textarea {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .terms-conditions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+  }
+  .terms-conditions ul li{
+    font-size: 10px;
+    
+  }
+  .summary {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+  }
+  .seperation{
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .summary-item input[type="number"] {
+    width: 60px;
+  }
+  
+  .summary-item input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .save {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .save:nth-child(1) {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  .save:nth-child(2):hover{
+     opacity:70%
+  }
+  .save:nth-child(1):hover{
+    background-color: #007bff;
+    color: white;
+    
+  }
